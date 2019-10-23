@@ -2,7 +2,7 @@
 from torch.nn import CrossEntropyLoss
 from torch.nn import BCEWithLogitsLoss
 
-__call__ = ['CrossEntropy','BCEWithLogLoss']
+__call__ = ['CrossEntropy','BCEWithLogLoss','FocalLoss']
 
 class CrossEntropy(object):
     def __init__(self):
